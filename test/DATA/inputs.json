@@ -1,0 +1,17 @@
+[
+
+    {
+        "un": " ",
+        "pw": "SuperSecretPassword!",
+        "expectedBanner": "Your username is invalid!"
+    },
+    {
+        "un": "tomsmith",
+        "pw": "SuperSecretPassword!",
+        "expectedBanner": "You logged into a secure area!"
+    }
+]
+
+
+
+

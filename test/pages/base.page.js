@@ -10,7 +10,9 @@ export default class basePage {
         return $('h2')
     }
 
-    goToHomePage() {
+    
+        
+    goToDynamicLoading() {
 
         console.log('step: going to home page')
 
@@ -19,11 +21,14 @@ export default class basePage {
         this.mainHeader.waitForDisplayed()
 
         console.log('step: on the home page')
+    }  
+    
+    //** Utilities */
 
+    assert(assertion, timeout) {
+        browser.waitUntil(()=>{
+            return assertion;
+        }, timeout)
     }
 
-
-
-
 }
-
