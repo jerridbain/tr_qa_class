@@ -11,7 +11,7 @@ describe('Smoke test the home page', () => {
     it('Then validate that the page headers', () => {
         homePage.assert(homePage.mainHeader.getText() === 'Welcome to the-internet')
 
-        homePage.assert(homePage.subHeader.getText().includes('Availiable') )
+        homePage.assert(homePage.subHeader.getText() === 'Available Examples')
 
         homePage.assert(homePage.mainHeader.getText() !== '404')
 
@@ -20,12 +20,3 @@ describe('Smoke test the home page', () => {
         
 
 });
-
-
-
-
-
-
-
-
-

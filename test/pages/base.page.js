@@ -12,7 +12,7 @@ export default class basePage {
 
     
         
-    goToDynamicLoading() {
+    goToHomePage() {
 
         console.log('step: going to home page')
 
